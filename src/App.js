@@ -218,6 +218,9 @@ function App() {
         />
       </g>
     </svg>
+    <div className="intro">
+      data source: <a href="https://github.com/owid/covid-19-data">COVID-19 Dataset by Our World in Data</a>
+    </div>
     </>
   );
 }
