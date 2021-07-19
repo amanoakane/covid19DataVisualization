@@ -1,0 +1,60 @@
+.map, .line, .bar {
+  margin-left: 230px;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+
+.marks .land {
+  fill: #ececec;
+}
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #ececec;
+}
+.marks .country {
+  fill: #ececec;
+}
+
+circle {
+  opacity: 0.4;
+}
+
+.dropdown-label{
+  margin-top: 10px;
+  margin-left: 610px;
+  display: flex;
+  font-size: 1em;
+  width: 25%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+.tick text {
+  fill: #635F5D;
+  cursor: default;
+}
+
+.axis-label {
+  font-size: 1.3em;
+  fill: #635F5D;
+}
+
+.dropdown2{
+  position: absolute;
+  top: 600px;
+  margin-left: 1100px;
+  font-size: 1em;
+  width: 15%;
+}
